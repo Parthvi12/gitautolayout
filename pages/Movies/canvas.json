@@ -64,6 +64,50 @@
                       "isVisible": true,
                       "labelTextSize": "0.875rem",
                       "label": "Title"
+                    },
+                    "customField1": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.customField1))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "NOT RELEASED",
+                      "isCustomField": false,
+                      "accessor": "customField1",
+                      "identifier": "customField1",
+                      "position": 1,
+                      "originalIdentifier": "customField1",
+                      "boxShadow": "none",
+                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Custom Field 1"
+                    },
+                    "tagline": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.tagline))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "Pretty Neat",
+                      "isCustomField": false,
+                      "accessor": "tagline",
+                      "identifier": "tagline",
+                      "position": 2,
+                      "originalIdentifier": "tagline",
+                      "boxShadow": "none",
+                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Tagline"
                     }
                   },
                   "position": -1,
@@ -167,6 +211,24 @@
                 },
                 {
                   "key": "schema.__root_schema__.children.title.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.customField1.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.customField1.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.customField1.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.tagline.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.tagline.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.tagline.accentColor"
                 }
               ],
               "borderWidth": "0",
