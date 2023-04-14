@@ -17,6 +17,11 @@
       "type": "AUTO"
     }
   },
+  "publishedApplicationDetail": {
+    "appPositioning": {
+      "type": "AUTO"
+    }
+  },
   "color": "#ECECEC",
   "icon": "chat",
   "unpublishedCustomJSLibs": [],
