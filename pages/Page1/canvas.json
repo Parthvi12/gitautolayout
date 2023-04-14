@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 610,
+          "bottomRow": 460,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -21,8 +21,10 @@
           "canExtend": true,
           "version": 78,
           "minHeight": 1292,
+          "useAutoLayout": true,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
+          "responsiveBehavior": "fill",
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
@@ -37,8 +39,8 @@
                 "wave",
                 "player"
               ],
-              "topRow": 13,
-              "bottomRow": 17,
+              "topRow": 0,
+              "bottomRow": 4,
               "parentRowSpace": 10,
               "type": "AUDIO_WIDGET",
               "hideCard": false,
@@ -48,8 +50,9 @@
               "leftColumn": 0,
               "dynamicBindingPathList": [],
               "key": "owq9ugmn0q",
+              "flexVerticalAlignment": "start",
               "isDeprecated": false,
-              "rightColumn": 19,
+              "rightColumn": 64,
               "widgetId": "jp4tcb2jy1",
               "minWidth": 450,
               "isVisible": true,
@@ -61,7 +64,8 @@
               "mobileTopRow": 13,
               "responsiveBehavior": "fill",
               "mobileLeftColumn": 0,
-              "autoPlay": false
+              "autoPlay": false,
+              "alignment": "start"
             },
             {
               "mobileBottomRow": 61,
@@ -72,19 +76,20 @@
               "searchTags": [
                 "pdf"
               ],
-              "topRow": 21,
-              "bottomRow": 61,
+              "topRow": 4,
+              "bottomRow": 44,
               "parentRowSpace": 10,
               "type": "DOCUMENT_VIEWER_WIDGET",
               "hideCard": false,
               "mobileRightColumn": 42,
               "animateLoading": true,
               "parentColumnSpace": 12.53125,
-              "leftColumn": 18,
+              "leftColumn": 0,
               "dynamicBindingPathList": [],
               "key": "4dpygijzcv",
+              "flexVerticalAlignment": "start",
               "isDeprecated": false,
-              "rightColumn": 42,
+              "rightColumn": 64,
               "widgetId": "acktd4lyc7",
               "isVisible": true,
               "version": 1,
@@ -94,7 +99,27 @@
               "mobileTopRow": 21,
               "responsiveBehavior": "fill",
               "mobileLeftColumn": 18,
-              "docUrl": "https://www.learningcontainer.com/wp-content/uploads/2019/09/sample-pdf-file.pdf"
+              "docUrl": "https://www.learningcontainer.com/wp-content/uploads/2019/09/sample-pdf-file.pdf",
+              "alignment": "center"
+            }
+          ],
+          "positioning": "vertical",
+          "flexLayers": [
+            {
+              "children": [
+                {
+                  "id": "jp4tcb2jy1",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "acktd4lyc7",
+                  "align": "center"
+                }
+              ]
             }
           ]
         },
