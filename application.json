@@ -20,6 +20,7 @@
   "color": "#ECECEC",
   "icon": "chat",
   "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
